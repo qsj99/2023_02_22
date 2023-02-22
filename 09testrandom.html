@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var lotto=[];
+        while(lotto.length<6){
+            var num = Math.floor(Math.random()*45)+1;
+            if(lotto.indexOf(num)<0){lotto.push(num);}  //중복 불가
+        }
+
+        lotto.sort(function(a,b){return a-b});
+        for(var k=0;k<6; k++){
+            document.write(lotto[k],' ', '<p>');
+        }
+    
+        // 방법2 
+        var lotto= new Array();
+        for(var a=0; a<6; a=a+1){
+            lotto[a] = Math.floor(Math.random()*10+1);
+            for(var j=0; j<a; j=j+1){
+                if(lotto[a]==lotto[j]){a--; continue;}
+            }
+        }
+        lotto.sort(function(a,b){return a-b});
+        for(var k=0; k<6; k++){
+            document.write(lotto[k],' ');
+
+        }
+    </script>
+</head>
+<body>
+    <h2>09test.html</h2>우와아아아아앙아아아아앙아아아아아앙앙 기...기...기....기모테!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    웅엥웅엥우엥웅엥웅엥웅엥ㅇ엥ㅇ엥ㅇ에에에엥에에에에엥
+    조 요쟈... 즈후....걸푸랸? 즈후....저 여자...조하한다.....즈후...저 여자보때...웃는당!<br>
+    F4의 이름을 명한다. 현시각부로 금잔디를 이 학교에서 제명한다! <br>
+    커즈 온마이럽~
+
+<p></p>
+왓냐? 너 정체가 뭐냐? 그 꼬맹이가 뭐길래 여기까지온거야? <br>
+-옆집 아조씨...<br>
+옆집 아저씨?? 너 도라이 정신병자지? 내동생 어딨어 내동생어딨어?!<br>
+-소미가 먼저다<br>
+받아 어우 무서워서 못가겠다 strike?<br>
+-(ㅂㄷㅂㄷ)<br>
+그 꼬맹이가 엄마 찾으러 하늘 나라갔어. 근데, 눈깔이 없어서 못찾어<br>
+넌 사람 잘못 건들였어.... 옆집 아저씨?? 장난 치냐 이 개새끼야?!!
+내동생 어딨어 내동생 어딨어!!!<br>
+-나...전당포한다.... 금이빨을 받아...<br>
+뭐??
+-금이빨빼고 모조리 쓉어먹어주께!
+<p></p>
+야야 잠깐 야! 야! 지금 니가 나 쏘잖아? 그럼 예약된 메일하나가<br>
+내일 아침 경찰서로 날아가 너...<br>
+니가 지금가지 마약 빼돌려 쳐먹은거! 유흥업소 불법운영한거.<br>
+최형사 살인교사한거 다적혀있어 물론 니가 한것 중에 극히 일부겠지만<br>
+최소한 무기징역나온다에 내가 18만원건다 이 시팔 새기야...<br>
+쏠거야? 쏴봐! 같이 죽던가,... 쏘지 않을거면 이총 치워라 이...시팔... 
+ <p></p>
+
+시켜줘<br>
+-네? 뭘요?<br>
+금잔디 명예소방관
+ <p></p>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04test391.html</title>
+    <style>
+        * {
+            font-size: 20pt;
+        }
+    </style>
+
+    <script>
+        var city = ['서울', '대구', '제주', '대전', '진주'];
+        for (k = 0; k < city.length; k=k+1) { //정석
+            document.write(city[k], ' ');
+        }
+        document.write('<p>');
+        for (var i in city) {document.write(i, ' ');}
+
+        document.write('<p>');
+        for (var j of city) {document.write(j, ' ');}
+        
+        document.write('<p>');
+        city.forEach(function(value,index){
+        document.write(index, '번째 ', value)
+        });
+
+        document.write('<p>');
+        var num = [1,2,3];
+        num.forEach(function(value,index){
+            document.write( index, ' ', value, '<br>');
+        });
+
+    </script>
+</head>
+
+<body>
+    <h2>03test391p.html</h2>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+02/22
+387p 배열 
+ 변수 variable = 변하는 값 
+ 상수 const = 한번 대입 후 재할당 안됨, 고정 
+ const PI = 3.1415; const NT = '대한민국';
+ 배열 =array / for 반복문으로 출력 
+  배열명 = [ ];
+  배열명 = new Array( );
+  배열 에제 로또 숫자 6개 , 일요일 ~ 토요일 
+
+  day = ['일', '월', '화','수','목','금','토']
+    for (var k=0; k<day.length; k++) {document.write(day[k]);}
+
+ 클래스 상품되기 전 = 메모리로드 전 
+ 객체 상품화 = 메모리로드 
+ var dt = new Date();
+ 
+ food='햄버거';
+ getFood() 값 가져오기 
+ setFood(값 변경)
+ 미르.setFood('곱창');
+ 
+   
